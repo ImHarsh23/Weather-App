@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loader">
+        <div class="circle-container">
+            <div class="circle">
+
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="alert-container">
+            <span class="alert">❌ Input field can't be empty</span>
+        </div>
+        <div class="alert-city">
+            <span class="alert">❌ City not found</span>
+        </div>
+        <div class="heading">
+            <h1>Weather App</h1>
+        </div>
+        <form action="" class="weather-box">
+            <input type="text" name="city" placeholder="Enter city name...">
+            <button type="submit">Click</button>
+        </form>
+        <div class="content">
+            <div class="area">
+                <div class="time">Time</div>
+                <div class="tempdiv">
+                    <div>
+                        <div class="temp">30°C</div>
+                        <div class="temp-feel">Real feel 24°C</div>
+                    </div>
+                    <!-- <div>
+                        
+                    </div> -->
+                </div>
+                <div class="place"></div>
+            </div>
+            <div class="other-info">
+                <div class="wind">
+                    <div class="wind-img">
+                        <img src="./assets/wind.png" alt="">
+                    </div>
+                    <p class="extra-text">Wind</p>
+                    <p class="wind-val">5-8 km/h</p>
+                </div>
+                <div class="pressure">
+                    <div class="pressure-img">
+                        <img src="./assets/barometer.png" alt="">
+                    </div>
+                    <p class="extra-text">Pressure</p>
+                    <p class="pressure-val">1000 MB</p>
+                </div>
+                <div class="humidity">
+                    <div class="humidity-img">
+                        <img src="./assets/humidity.png" alt="">
+                    </div>
+                    <p class="extra-text">Humidity</p>
+                    <p class="humidity-val">51%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
